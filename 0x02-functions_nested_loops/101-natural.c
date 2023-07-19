@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -9,7 +8,7 @@
 int main(void)
 
 {
-	int i, z  = 0;
+	int i, z = 0;
 
 	while (i < 1024)
 	{
