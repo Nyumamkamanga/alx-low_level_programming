@@ -6,7 +6,6 @@
  * Return: empty
  */
 
-
 void print_triangle(int size)
 
 {
@@ -22,7 +21,7 @@ void print_triangle(int size)
 	{
 	for (y = size - x; y > 1; y--)
 	{
-	_putchar(35);
+	_putchar(32);
 	}
 	_putchar('\n');
 	}
