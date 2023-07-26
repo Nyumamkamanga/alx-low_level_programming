@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - check code for
+ * main - check the code for
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char s[] = "Expect the best. Prepare for worst. Capitalize on what comes.\n";
+	char s[] =
+"Expect the best. Prepare the for worst. Capitalize on what comes.\n";
 	char *p;
 
 	p = leet(s);
