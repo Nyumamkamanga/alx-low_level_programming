@@ -6,7 +6,7 @@
  * @to: the char
  */
 
-void ser_string(char **s, char *to)
+void set_string(char **s, char *to)
 {
 	*s = to;
 }
