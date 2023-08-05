@@ -4,7 +4,8 @@
 /**
 * _atoi - converts a string to an integer
 * @s: string to be converted
-* Return: the int conerted from the string
+*
+* Return: the int converted from the string
 */
 
 int _atoi(char *s)
@@ -15,6 +16,7 @@ int _atoi(char *s)
 	d = 0;
 	n = 0;
 	len = 0;
+	f = 0;
 	digit = 0;
 
 	while (s[len] != '\0')
