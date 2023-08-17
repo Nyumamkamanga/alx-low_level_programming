@@ -13,7 +13,7 @@
  *
  */
 
-void print_strings(const char * separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list strings;
 	char *str;
@@ -28,7 +28,7 @@ void print_strings(const char * separator, const unsigned int n, ...)
 		if (str == NULL)
 			printf("(nil)");
 		else
-			printf("%s",str);
+			printf("%s", str);
 
 		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
